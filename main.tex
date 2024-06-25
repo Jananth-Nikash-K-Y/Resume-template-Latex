@@ -5,33 +5,37 @@
 \usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{multicol}
+\usepackage{xcolor}
 \setlist{noitemsep}
+
+% Define color scheme
+\definecolor{headercolor}{RGB}{0,102,204} % Blue color for headers
+\definecolor{accentcolor}{RGB}{102,153,255} % Lighter blue for accents
 
 \begin{document}
 
 % Header
 \begin{center}
-    {\huge \textbf{Jananth Nikash K Y}} \\
+    {\huge \textbf{\textcolor{headercolor}{Jananth Nikash K Y}}} \\
     \vspace{3pt}
-    {\textbf{Full Stack Developer}\\
-    \href{mailto:jananthnikash.ky@outlook.in}{jananthnikash.ky@outlook.in} \ +91 8220322495} \\
+    {\large \textbf{Full Stack Developer}} \\
+    \href{mailto:jananthnikash.ky@outlook.in}{jananthnikash.ky@outlook.in} \ +91 8220322495 \\
     \vspace{3pt}
     \href{https://github.com/jananth-nikash-k-y}{Github} --
     \href{https://linkedin.com/in/Jananth-Nikash-K-Y}{LinkedIn} --
     \href{https://medium.com/@jananthnikash.ky}{Medium}
 \end{center}
 \vspace{8pt}
-\hrule
-\vspace{8pt}
+\hrule \color{accentcolor} \vspace{8pt} \color{black}
 
 % Start two-column layout
 \begin{multicols}{2}
 
-\section*{Experience}
+\section*{\textcolor{headercolor}{Experience}}
 
 \textbf{Software Engineer} \\
-\textit{Tata Consultancy Service, Chennai} \\
-\textit{February 2022 - Now}
+\textit{Tata Consultancy Services, Chennai} \\
+\textit{February 2022 - Present}
 \begin{itemize}
     \item \textbf{ContAI}
     \begin{itemize}
@@ -54,29 +58,29 @@
     \item \textbf{Other Projects:} SCOT-ACE Hardware, Node twin, Cost to Serve
 \end{itemize}
 
-\section*{Major Technologies Used}
+\section*{\textcolor{headercolor}{Major Technologies Used}}
 \begin{itemize}
     \item \textbf{Front-end:} Angular, Three.js, Bootstrap
     \item \textbf{Back-end:} Python (FastAPI, Flask), Spring (Spring boot)
     \item \textbf{Database:} PostgreSQL, H2Database (Repos: Azure, Git Lab)
 \end{itemize}
 
-\section*{Skills}
+\section*{\textcolor{headercolor}{Skills}}
 \begin{itemize}
-    \item Angular, Python, Flask, FastAPI, Typescript, JavaScript, Git/Github, Three.js, Spring Boot, GenAI, Node.js, PostgreSQL, Bootstrap, HTML/CSS, Latex
+    \item Angular | Python | Flask | FastAPI | Typescript | JavaScript | Git/Github | Three.js | Spring Boot | GenAI | Node.js | PostgreSQL | Bootstrap | HTML/CSS | Latex
 \end{itemize}
 
-\section*{Education}
+\section*{\textcolor{headercolor}{Education}}
 \textbf{B.E. Electrical and Electronics Engineering} \\
 Arunai Engineering College \\
 7.56 CGPA
 
-\section*{Personal Projects}
+\section*{\textcolor{headercolor}{Personal Projects}}
 \textbf{Developed Customizable D3.js Chart for Dynamic Data Visualization} \\
 \textit{February 2023 -} \\
 Developed a dynamic D3.js chart for personalized data visualization. Interactive, customizable, and user-friendly, showcasing proficiency in front-end development and data visualization.
 
-\section*{Achievements}
+\section*{\textcolor{headercolor}{Achievements}}
 \begin{itemize}
     \item \textbf{ContAI Project Recognition at Tata Innovista and Patent Achievements} \\
     \textit{November 2023 -} \\
@@ -87,7 +91,7 @@ Developed a dynamic D3.js chart for personalized data visualization. Interactive
     Contributed significantly to the front end of the Scot IP project, including authorization, security, and successful TCS IP-Safe clearance. Important in obtaining patents and demonstrating commitment to innovation and project quality.
 \end{itemize}
 
-\section*{Courses}
+\section*{\textcolor{headercolor}{Courses}}
 \begin{itemize}
     \item Angular - The Complete Guide, Udemy, 2023
     \item Restful API with Flask, Udemy, 2023
